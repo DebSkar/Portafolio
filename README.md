@@ -1,8 +1,8 @@
-# About: Portafolio Interactivo
+# Portafolio Interactivo
 
-> Portafolio con habitación 2D, avatar animado y proyectos interactivos.
+> About: Portafolio con habitación 2D, avatar animado y proyectos interactivos.
 
-> https://debskar.github.io/Portafolio/
+> Portafolio: https://debskar.github.io/Portafolio/
 
 ## Características
 
