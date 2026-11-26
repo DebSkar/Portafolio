@@ -1,18 +1,18 @@
-# 🏠 Mi Portafolio Interactivo
+# Portafolio Interactivo
 
 > Portafolio con habitación 2D, avatar animado y proyectos interactivos.
 
-## ✨ Características
+## Características
 
-- 🌟 **Pantalla de bienvenida** con nombre, rol y descripción
-- 🚪 **Puerta animada** que se abre al hacer scroll
-- 🏠 **Habitación cartoon** dibujada en Canvas 2D con perspectiva
-- 🧑 **Avatar animado** que camina hacia los proyectos y los lanza
-- 📋 **Modal de proyecto** con galería, descripción y links
-- 📱 **Responsive** — funciona en PC y móvil (touch)
-- 🚀 **GitHub Pages** — deploy automático
+-  **Pantalla de bienvenida** con nombre, rol y descripción
+-  **Puerta animada** que se abre al hacer scroll
+-  **Habitación cartoon** dibujada en Canvas 2D con perspectiva
+-  **Avatar animado** que camina hacia los proyectos y los lanza
+-  **Modal de proyecto** con galería, descripción y links
+-  **Responsive** — funciona en PC y celular 
+  
 
-## 🛠 Personalización
+## Personalización
 
 Edita el archivo **`js/data.js`** para:
 
@@ -44,19 +44,6 @@ const PROJECTS = [
   // ... más proyectos
 ];
 ```
-
-## 🚀 Deploy en GitHub Pages
-
-### 1. Crear repositorio en GitHub
-
-```bash
-git init
-git add .
-git commit -m "🎉 Initial portfolio"
-git remote add origin https://github.com/TUUSUARIO/TUUSUARIO.github.io
-git push -u origin main
-```
-
 ### 2. Activar GitHub Pages
 
 1. Ve a tu repositorio en GitHub
