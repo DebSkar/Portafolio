@@ -67,9 +67,20 @@ const PROJECTS = [
   // ... más proyectos
 ];
 ```
+## Créditos:
+intente ocupar un componente de la lista, pero al final no resulto igual al de la página. Tenía este promt:
+Help me add the "3d-card-demo" component from Aceternity UI to my project. Its source files and dependencies are at https://ui.aceternity.com/registry/3d-card-demo.json. First check that the project uses shadcn/ui, Tailwind CSS v4 and TypeScript.
+> Enlace componente: https://ui.aceternity.com/components/3d-card-effect
+
+
+
+
 ## Reflexión
 
+Esté semestre me ayudó a entender mejor como funcionan los dispositivos y herramientas digitales, y a perder un poco el miedo a estos, a veces me sentía demasiado vigilada por la tecnología, y comprender que estas no ven ni reconocen nada más allá de lo que se les dice, hace más sencillo convivir con ellas. Creo que como seres humanos tenemos la costumbre de humanizar y dotar de vida a objetos que no la tienen, y la IA y cualquier tecnología son ejemplo de ello, se nos olvida que son herramientas (quieras usarlas o no) que no piensan ni sienten por si solas.
+El uso de la IA todavía me causa conflicto, sé el mal que producen y creo ir perdiendo neuronas cada vez que la uso, pero para efectos de esté curso me fue inevitable no hacerlo.
 
+> Para la realización de esté portafolio y los trabajos del curso se ocupó Antigravity 
 
 
 
