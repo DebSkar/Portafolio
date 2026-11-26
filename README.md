@@ -2,6 +2,8 @@
 
 > Portafolio con habitación 2D, avatar animado y proyectos interactivos.
 
+> https://debskar.github.io/Portafolio/
+
 ## Características
 
 -  **Pantalla de bienvenida** con nombre, rol y descripción
@@ -11,8 +13,29 @@
 -  **Modal de proyecto** con galería, descripción y links
 -  **Responsive** — funciona en PC y celular 
   
+## Glosario del Semestre
 
-## Personalización
+*  HTML: Significa HyperText Markup Language, es un lenguaje que sirve para crear páginas web, le da la  estructura a los contenidos de estas. 
+
+* CSS: Significa Cascading Style Sheets, CSS sirve para darle estilo a los contenidos, es el cómo se presentan visual y estéticamente en pantalla.
+
+* JavaScript: Es un lenguaje de programación que se utiliza para la creación de las interacciones de las páginas web, además sirve para enviar y recibir información de servidores.
+
+* MQTT:  Significa Message Queuing Telemetry Transport.Es un protocolo de mensajería que se utiliza para comunicar equipos entre sí.
+
+* MediaPipe: Es una herramienta de código abierto que facilita la visión artificial en tiempo real.
+
+* Three.js: Es una biblioteca de JavaScript que sirve para facilitar la visualización y creación de gráficos en 3D.
+
+| Archivo | Qué puedes cambiar |
+|---|---|
+| `css/style.css` | Colores, fuentes, tamaños |
+| `js/room.js` | Muebles, decoración de la habitación |
+| `js/avatar.js` | Colores, forma del avatar |
+| `js/data.js` | Todo tu contenido |
+
+
+## Como funciona: Ejemplo Personalización
 
 Edita el archivo **`js/data.js`** para:
 
@@ -44,40 +67,11 @@ const PROJECTS = [
   // ... más proyectos
 ];
 ```
-### 2. Activar GitHub Pages
+## Reflexión
 
-1. Ve a tu repositorio en GitHub
-2. **Settings** → **Pages**
-3. En **Source**, selecciona **GitHub Actions**
-4. El deploy se hará automático en cada push a `main`
 
-Tu portfolio estará en: `https://TUUSUARIO.github.io`
 
-## 📂 Estructura del proyecto
 
-```
-portfolio/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   ├── data.js       ← ✏️ EDITA ESTO
-│   ├── room.js       — Renderiza la habitación
-│   ├── avatar.js     — Anima el avatar
-│   ├── scroll.js     — Transición scroll→puerta→habitación
-│   ├── modal.js      — Modal de proyectos
-│   └── main.js       — Orquestador
-├── assets/           ← Pon aquí tus imágenes
-└── .github/
-    └── workflows/
-        └── deploy.yml
-```
 
-## 🎨 Personalización avanzada
 
-| Archivo | Qué puedes cambiar |
-|---|---|
-| `css/style.css` | Colores, fuentes, tamaños |
-| `js/room.js` | Muebles, decoración de la habitación |
-| `js/avatar.js` | Colores, forma del avatar |
-| `js/data.js` | Todo tu contenido |
+
